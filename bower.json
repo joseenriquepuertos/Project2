@@ -1,0 +1,20 @@
+{
+  "name": "project2 - e-commerce",
+  "homepage": "https://github.com/joseenriquepuertos/Project2",
+  "authors": [
+    "jose enrique puertod"
+  ],
+  "description": "my e-commerce",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
