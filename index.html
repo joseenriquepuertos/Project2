@@ -1,109 +1,165 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>my second bootstrap project</title>
+    <title>My second bootstrap project</title>
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="bower_components/font-awesome/css/fontawesome.css">
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/style.css">
-  </head>
+        <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
   <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <a href="" class="navbar-brand">my second bootstrap project</a>
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">  toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
+        <a href="#" class="navbar-brand"> My second bootstrap project</a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
         </div>
-        <ul class="nav navbar-nav navbar-right collapse navbar-collapse">
-          <li><a href="/">Home</a></li>
-          <li><a href="Products.html">Products</a></li>
-          <li><a href="About.html">About Us</a></li>
-          <li><a href="">Contact Us</a></li>
-          <li> <form class="navbar-form" role="search">z
+      <ul class="nav navbar-nav navbar-right collapse navbar-collapse">
+        <li><a href="/">Home</a></li>
+        <li><a href="Products.html">Products</a></li>
+        <li><a href="About.html">About us</a></li>
+        <li><a href=""data-toggle="modal" data-target="#modal-contact-form">Contact us </a></li>
+        <li>
+          <form class="navbar-form" role="search">
             <div class="input-group">
               <input type="text" class="form-control" placeholder="Search...">
               <div class="input-group-btn">
                 <button class="btn btn-default" type="submit">
-                <i class="glyphicon glyphicon-search"></i>
-              </button></div>
-              </div>
-            </form>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <h1>Featured Product</h1>
-          <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias asperiores magni repellendus velit odit alias fuga quas, iusto dolor amet repellat eligendi quam, eaque minus?</p>
-          <div class="btn-group">
-            <button class="btn btn-info">Buy now</button>
-            <button class="btn btn-default">Free Trial</button>
-          </div>
-      </div>
-          <div class="col-md-8">
-            <img src="img/d.png" alt="" width="800" height="300">
-          </div>
-      </div>
-      <hr>
-    </div>
-    <div class="container">
-      <h3>The company</h3>
-      <div class="row">
-        <div class="col-md-8">
-          <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi earum incidunt, aspernatur, minima neque quis iure magni distinctio ipsum quam est atque, fuga reprehenderit, quos consequuntur dicta? Nulla ad qui nesciunt autem, aspernatur nam omnis, ducimus culpa. Eum assumenda porro sed alias! Fugit veniam blanditiis nulla reprehenderit maxime fugiat assumenda qui accusantium a facilis, sunt cum, repellat voluptates obcaecati earum. Nesciunt dolore ullam dicta accusantium velit eligendi temporibus, beatae voluptatum error officia voluptates, expedita quidem quo, minima atque, reiciendis rerum unde quia sed? Provident, in, ab. Ab, consectetur debitis modi necessitatibus eveniet, mollitia accusantium iure facilis totam doloribus praesentium, numquam!</p>
-        </div>
-        <div class="col-md-4">
-          <p class="well well-lg lead text-center">
-            this is a great company !!! it will be remembered for the years to come.
-          </p>
-        </div>
-      </div>
-      <hr>
-    </div>
-<div class="row">
-    <div class="container">
-      <h3>Testimonials</h3>
-      <div class="carousel" id="testimonials">
-        <div class="carousel-inner">
-          <div class="item active">
-            <blockquote>
-              <p>
-                this is a atestimonial1
-              </p>
-              <small>jose enrique puertos</small>
-            </blockquote>
-          </div>
-          <div class="item">
-            <blockquote>
-              <p>
-                this is a atestimonial 2
-              </p>
-              <small>enrique puertos</small>
-            </blockquote>
-          </div>
-          <div class="item">
-            <blockquote>
-              <p>
-                this is a atestimonial 3
-              </p>
-              <small>puertos</small>
-            </blockquote>
-          </div>
-        </div>
+                  <i class="glyphicon glyphicon-search"></i>
+                </button>
+                </div>
+                </div>
+          </form>
+        </li>
+      </ul>
+       </div>
+       </div>
+       <div class="container">
+         <div class="row">
+           <div class="col-md-4">
+             <h1>Featured Product</h1>
+             <p class="text-center"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae a, ad ea laborum autem corrupti odio officiis asperiores eaque neque.</p>
+             <div class="btn-group">
+               <button class="btn btn-info">Buy Now</button>
+               <button class="btn btn-default">Free trial</button>
+             </div>
+             </div>
+           <div class="col-md-4">
+             <img src="img/d.png" alt="" width="1000" height="400">
+           </div>
+         </div>
 
-      </div>
+       </div>
+       <div class="container">
+         <h3>The company</h3>
+         <div class="row">
+           <div class="col-md-8">
+             <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur nisi facere quibusdam ab quam impedit eius atque omnis. Dolorem ipsum omnis, quo labore deserunt illo id itaque non natus ipsa velit quisquam, consequatur eum hic? Odio fugiat nam, sapiente rem sed possimus error ducimus ab, aspernatur perspiciatis quisquam tempora architecto, maiores magnam? Cumque fugit quas, vitae beatae sint qui similique recusandae porro accusamus autem? Explicabo assumenda, nihil aspernatur animi magni quisquam eos, fugiat laboriosam vero temporibus laborum? Facilis cum nam aperiam iusto accusantium nemo id amet, odio voluptatibus, natus temporibus magnam dolor sed dicta vel beatae quis, autem ipsa adipisci.</p>
+           </div>
+           <div class="col-md-4">
+             <p class="well well-lg lead text-center">This is a great Company wil be remember for the years to come. </p>
+           </div>
+         </div>
+         <hr>
+       </div>
 
-    </div>
-    </div>
-    <script src="bower_components/jquery/dist/jquery.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+       <div class="row">
+         <div class="container">
+           <h3>Testimonials</h3>
+           <div class="carousel" id="testimonials">
+             <div class="carousel-inner">
+               <div class="item active">
+                 <blockquote>
+                   <p>
+                     This is a atestimonial 1
+                   </p>
+                   <small>Jose</small>
+                 </blockquote>
+               </div>
+               <div class="item">
+                 <blockquote>
+                   <p>
+                     This is a atestimonial 2
+                   </p>
+                   <small>Enrique</small>
+                 </blockquote>
+               </div>
+               <div class="item">
+                 <blockquote>
+                   <p>
+                     This is a atestimonial 3
+                   </p>
+                   <small>puertos</small>
+                 </blockquote>
+               </div>
 
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="row">
+         <div class="container">
+           <hr>
+           <p class="lead text-center">
+             Wanna Get In touch? Email us at <a href="">enrique.puertos19@gmail.com</a>
+           </p>
+           <hr>
+           <ul class="list-unstyled text-center list-inline features">
+             <li>Follow us:</li>
+             <li><a href="#"><i class="fa fa-facebook"></i></a>
+             <li><a href=""><i class="fa fa-twitter"></i></a></li>
+             <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+           </ul>
+           <p class="text-center text-muted">&copy; copyright 2017. Company Name. All rights reserved </p>
+         </div>
+       </div>
+       <div class="modal fade" id="modal-contact-form" role="dialog">
+         <div class="modal-dialog">
+           <div class="modal-content">
+             <div class="modal-header">
+               <button class="close" data-dismiss="modal">&times;</button>
+                <h3>Contact Us</h3>
+             </div>
+             <div class="modal-body">
+               <form>
+                 <div class="form-group">
+                   <label for="contact-name" class="form-control-label"> Name:</label>
+                   <input type="text" class="form-control" id="contact-name" required>
+                 </div>
+                 <div class="form-group">
+                   <label for="contact-email" class="form-control-label"> Email:</label>
+                   <input type="email" class="form-control" id="contact-email" required>
+                 </div>
+                 <div class="form-group">
+                   <label for="contact-message" class="form-control-label"> Message:</label>
+                   <textarea name="" id="contact-message" cols="30" rows="5" class="form-control"></textarea>
+                 </div>
+                 <div class="form-group">
+                   <div class="controls">
+                     <input type="submit" class="btn btn-primary" value="send message" required>
+                   </div>
+                 </div>
+               </form>
+             </div>
+             <div class="modal-footer">
+               <button class="btn btn-danger" data-dismiss="modal"> Cancel</button>
+             </div>
+           </div>
+         </div>
+       </div>
+    <script Src="bower_components/jquery/dist/jquery.js"></script>
+    <scripT Src="bower_components/bootstrap/dist/js/bootstrap.js"> </script>
+      <script>
+      $(document).ready(function(){
+        $('.carousel').carousel({
+          interval: 5000
+        })
+      })
+      </script>
   </body>
 </html>
